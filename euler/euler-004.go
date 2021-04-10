@@ -19,6 +19,7 @@ func Euler004(n int) int {
 			}
 		}
 	}
+
 	return max
 }
 
@@ -26,11 +27,13 @@ func Euler004(n int) int {
 func isPalindrome(n int) bool {
 	rev_num := 0
 	ori_num := n
+	
 	for n > 0 {
 			remainder := n % 10
 			rev_num *= 10
 			rev_num += remainder 
 			n /= 10
 	}
+
 	return ori_num == rev_num 
 }
