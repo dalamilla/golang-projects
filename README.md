@@ -1,4 +1,4 @@
-# Golang Projects
+# Golang Practice Projects
 
 A collection of Golang projects to improving your coding skills.
 
